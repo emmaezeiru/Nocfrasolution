@@ -24,12 +24,12 @@ export default function Hero() {
             <div className="card border-l-4 border-nocfra-primary p-6">
               <h3 className="font-heading text-2xl font-bold text-nocfra-dark">For Companies</h3>
               <p className="mt-2 text-zinc-700">Staffing gaps or key initiatives to deliver? We provide hand‑picked, certified experts for project delivery, PMO uplift and recovery.</p>
-              <a href="#services" className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline">Find expertise →</a>
+              <a href="/services/consulting" className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline">Find expertise →</a>
             </div>
             <div className="card border-l-4 border-nocfra-primary/60 p-6">
               <h3 className="font-heading text-2xl font-bold text-nocfra-dark">For Professionals</h3>
               <p className="mt-2 text-zinc-700">Grow your capabilities with practical training—PMP exam prep, fundamentals, and software testing with real‑world scenarios.</p>
-              <a href="#services" className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline">Explore trainings →</a>
+              <a href="/services/training" className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline">Explore trainings →</a>
             </div>
           </div>
         </div>
