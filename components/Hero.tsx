@@ -6,7 +6,7 @@ export default function Hero() {
         <div className="grid items-start gap-10 md:grid-cols-2">
           <div>
             <p className="text-xl font-bold uppercase tracking-[0.2em] text-zinc-500">Project Management Consulting • Training • Outsourcing</p>
-            <h1 className="mt-3 font-heading text-5xl leading-tight text-nocfra-dark md:text-6xl">
+            <h1 className="mt-3 font-heading text-5xl font-bold leading-tight text-nocfra-dark md:text-6xl">
               Right Intervention,
               <span className="text-nocfra-primary"> Boundless Results</span>
             </h1>
@@ -22,12 +22,12 @@ export default function Hero() {
 
           <div className="grid gap-6 md:mt-2">
             <div className="card border-l-4 border-nocfra-primary p-6">
-              <h3 className="font-heading text-2xl text-nocfra-dark">For Companies</h3>
+              <h3 className="font-heading text-2xl font-bold text-nocfra-dark">For Companies</h3>
               <p className="mt-2 text-zinc-700">Staffing gaps or key initiatives to deliver? We provide hand‑picked, certified experts for project delivery, PMO uplift and recovery.</p>
               <a href="#services" className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline">Find expertise →</a>
             </div>
             <div className="card border-l-4 border-nocfra-primary/60 p-6">
-              <h3 className="font-heading text-2xl text-nocfra-dark">For Professionals</h3>
+              <h3 className="font-heading text-2xl font-bold text-nocfra-dark">For Professionals</h3>
               <p className="mt-2 text-zinc-700">Grow your capabilities with practical training—PMP exam prep, fundamentals, and software testing with real‑world scenarios.</p>
               <a href="#services" className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline">Explore trainings →</a>
             </div>
@@ -36,15 +36,15 @@ export default function Hero() {
 
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="card">
-            <p className="font-semibold text-nocfra-dark">Vision</p>
+            <p className="font-bold text-nocfra-dark">Vision</p>
             <p className="mt-2 text-zinc-700">To be the preferred choice for PM Consulting & Training in Nigeria and Africa.</p>
           </div>
           <div className="card">
-            <p className="font-semibold text-nocfra-dark">Mission</p>
+            <p className="font-bold text-nocfra-dark">Mission</p>
             <p className="mt-2 text-zinc-700">Deliver best‑in‑class services and optimized human capacity for outstanding delivery capabilities.</p>
           </div>
           <div className="card">
-            <p className="font-semibold text-nocfra-dark">Core Values</p>
+            <p className="font-bold text-nocfra-dark">Core Values</p>
             <p className="mt-2 text-zinc-700">Conscious, continuous improvement; honesty; integrity; forthrightness; collaboration; quality.</p>
           </div>
         </div>

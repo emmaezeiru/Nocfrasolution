@@ -15,15 +15,15 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
-      <div className="container-responsive flex h-16 items-center justify-between">
-        <Link href="#home" className="flex items-center gap-3">
-          <Image src="/nocfra-logo.jpg" alt="Nocfra Solutions" width={40} height={40} />
-          <span className="font-heading text-xl text-nocfra-dark">Nocfra Solutions</span>
+      <div className="container-responsive flex h-20 items-center justify-between md:h-24">
+        <Link href="#home" className="flex items-center gap-4">
+          <Image src="/nocfra-logo.jpg" alt="Nocfra Solutions" width={56} height={56} />
+          <span className="font-heading text-2xl font-bold text-nocfra-dark md:text-3xl">Nocfra Solutions</span>
         </Link>
 
         <nav className="hidden gap-8 md:flex">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} className="text-sm font-medium text-zinc-700 transition-colors hover:text-nocfra-primary">
+            <a key={item.href} href={item.href} className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary">
               {item.label}
             </a>
           ))}
@@ -47,7 +47,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-3 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-50"
+                className="rounded-md px-3 py-3 text-base font-semibold text-zinc-700 hover:bg-zinc-50"
               >
                 {item.label}
               </a>

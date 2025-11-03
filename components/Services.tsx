@@ -1,7 +1,7 @@
 function ServiceCard({ title, items }: { title: string; items: string[] }) {
   return (
     <div className="card h-full border-l-4 border-nocfra-primary">
-      <h3 className="font-heading text-xl text-nocfra-dark">{title}</h3>
+      <h3 className="font-heading text-2xl font-bold text-nocfra-dark">{title}</h3>
       <ul className="mt-4 space-y-2 text-zinc-700">
         {items.map((item) => (
           <li key={item} className="leading-relaxed">{item}</li>

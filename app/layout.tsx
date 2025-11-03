@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Inter, Playfair_Display } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', weight: ['400','500','600','700'] })
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', weight: ['400','700'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nocfra.example.com'),
