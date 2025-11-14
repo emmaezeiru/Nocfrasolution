@@ -25,13 +25,13 @@ export default function Navbar() {
           <a href="#home" className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary">Home</a>
           <a href="#about" className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary">About</a>
           <div className="group relative">
-            <a href="/services" className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary">Services ▾</a>
+            <a href="/#services" className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary">Services ▾</a>
             <div className="invisible absolute left-0 top-full z-50 mt-2 w-64 rounded-lg border border-black/5 bg-white p-2 opacity-0 shadow-md transition-all duration-200 group-hover:visible group-hover:opacity-100">
-              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/consulting">Consulting Services</a>
-              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/training">Training Services</a>
-              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/outsourcing">Resource Outsourcing</a>
-              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/coaching-mentoring">Coaching & Mentoring</a>
-              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/book-editing">Book Editing & Proof‑reading</a>
+              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#consulting">Consulting Services</a>
+              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#training">Training Services</a>
+              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#outsourcing">Resource Outsourcing</a>
+              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#coaching-mentoring">Coaching & Mentoring</a>
+              <a className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#book-editing">Book Editing & Proof‑reading</a>
             </div>
           </div>
           <a href="#contact" className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary">Contact</a>
@@ -55,12 +55,12 @@ export default function Navbar() {
             <details className="rounded-md px-3 py-2">
               <summary className="cursor-pointer text-base font-bold text-zinc-700">Services</summary>
               <div className="mt-2 grid gap-1">
-                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services" onClick={() => setOpen(false)}>All Services</a>
-                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/consulting" onClick={() => setOpen(false)}>Consulting Services</a>
-                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/training" onClick={() => setOpen(false)}>Training Services</a>
-                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/outsourcing" onClick={() => setOpen(false)}>Resource Outsourcing</a>
-                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/coaching-mentoring" onClick={() => setOpen(false)}>Coaching & Mentoring</a>
-                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/services/book-editing" onClick={() => setOpen(false)}>Book Editing & Proof‑reading</a>
+                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#services" onClick={() => setOpen(false)}>All Services</a>
+                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#consulting" onClick={() => setOpen(false)}>Consulting Services</a>
+                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#training" onClick={() => setOpen(false)}>Training Services</a>
+                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#outsourcing" onClick={() => setOpen(false)}>Resource Outsourcing</a>
+                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#coaching-mentoring" onClick={() => setOpen(false)}>Coaching & Mentoring</a>
+                <a className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50" href="/#book-editing" onClick={() => setOpen(false)}>Book Editing & Proof‑reading</a>
               </div>
             </details>
             <a href="#contact" onClick={() => setOpen(false)} className="rounded-md px-3 py-3 text-base font-semibold text-zinc-700 hover:bg-zinc-50">Contact</a>

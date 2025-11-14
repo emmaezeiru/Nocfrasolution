@@ -16,7 +16,7 @@ export default function Hero() {
             </p>
             <div className="mt-8 flex gap-4">
               <a href="#contact" className="btn-primary">Get in Touch</a>
-              <a href="#services" className="inline-flex items-center rounded-md border border-nocfra-primary px-6 py-3 text-nocfra-primary transition-colors hover:bg-nocfra-primary hover:text-white">Our Services</a>
+              <a href="/#services" className="inline-flex items-center rounded-md border border-nocfra-primary px-6 py-3 text-nocfra-primary transition-colors hover:bg-nocfra-primary hover:text-white">Our Services</a>
             </div>
           </div>
 
