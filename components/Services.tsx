@@ -66,6 +66,7 @@ export default function Services() {
               "Project Management Fundamentals for Professionals",
               "Software Testing Training",
             ]}
+            icon="/icons/training.svg"
           />
           <ServiceCard
             title="Resource Outsourcing"
@@ -76,6 +77,7 @@ export default function Services() {
               "Business Analysts",
               "Software Testers",
             ]}
+            icon="/icons/outsourcing.svg"
           />
           <ServiceCard
             title="Book Editing & Proof‑reading"
@@ -83,6 +85,7 @@ export default function Services() {
               "Editing & proofreading across genres",
               "Ghost‑writing services",
             ]}
+            icon="/icons/proofreading.svg"
           />
         </div>
 
