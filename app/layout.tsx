@@ -1,51 +1,65 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { Inter, Playfair_Display } from 'next/font/google'
+import type { Metadata } from "next";
+import "./globals.css";
+import { Inter, Playfair_Display } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter', weight: ['400','500','600','700'] })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', weight: ['400','700'] })
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["400", "500", "600", "700"],
+});
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nocfra.example.com'),
+  metadataBase: new URL("https://nocfra.example.com"),
   title: {
-    default: 'Nocfra Solutions Limited – Project Management Consulting & Training',
-    template: '%s | Nocfra Solutions',
+    default:
+      "Nocfra Solutions Limited – Project Management Consulting & Training",
+    template: "%s | Nocfra Solutions",
   },
   description:
-    'Nocfra Solutions provides Project Management Consulting, Training, PMO setup, and Resource Outsourcing for organizations across Nigeria and Africa.',
+    "Nocfra Solutions provides Project Management Consulting, Training, PMO setup, and Resource Outsourcing for organizations across Nigeria and Africa.",
   openGraph: {
-    type: 'website',
-    title: 'Nocfra Solutions Limited',
-    siteName: 'Nocfra Solutions',
+    type: "website",
+    title: "Nocfra Solutions Limited",
+    siteName: "Nocfra Solutions",
     description:
-      'Project Management Consulting, Training, and Resource Outsourcing that deliver boundless results.',
+      "Project Management Consulting, Training, and Resource Outsourcing that deliver boundless results.",
     images: [
       {
-        url: '/og.jpg',
+        url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: 'Nocfra Solutions',
+        alt: "Nocfra Solutions",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Nocfra Solutions Limited',
+    card: "summary_large_image",
+    title: "Nocfra Solutions Limited",
     description:
-      'Project Management Consulting, Training, and Resource Outsourcing that deliver boundless results.',
-    images: ['/og.jpg'],
+      "Project Management Consulting, Training, and Resource Outsourcing that deliver boundless results.",
+    images: ["/og.jpg"],
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${playfair.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${playfair.variable}`}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }
-
