@@ -69,12 +69,6 @@ export default function Navbar() {
               </a>
               <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/#coaching-mentoring"
-              >
-                Coaching & Mentoring
-              </a>
-              <a
-                className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
                 href="/#book-editing"
               >
                 Book Editing & Proof‑reading
