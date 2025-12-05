@@ -30,13 +30,13 @@ export default function ServicesOverviewPage() {
             <h2 className="font-heading text-2xl font-bold text-nocfra-dark">Resource Outsourcing</h2>
             <p className="mt-2 text-zinc-700">Project personnel across PM, coordination, administration, BA, and testing.</p>
           </a>
-          <a href="/services/coaching-mentoring" className="card border-l-4 border-nocfra-primary">
-            <h2 className="font-heading text-2xl font-bold text-nocfra-dark">Coaching & Mentoring</h2>
-            <p className="mt-2 text-zinc-700">Targeted support for project leaders and teams to uplift capability.</p>
-          </a>
           <a href="/services/book-editing" className="card border-l-4 border-nocfra-primary">
             <h2 className="font-heading text-2xl font-bold text-nocfra-dark">Book Editing & Proof‑reading</h2>
             <p className="mt-2 text-zinc-700">Editing, proofreading, and ghost‑writing across genres.</p>
+          </a>
+          <a href="/services/coaching-mentoring" className="card border-l-4 border-nocfra-primary">
+            <h2 className="font-heading text-2xl font-bold text-nocfra-dark">Coaching & Mentoring</h2>
+            <p className="mt-2 text-zinc-700">Targeted support for project leaders and teams to uplift capability.</p>
           </a>
         </div>
       </div>

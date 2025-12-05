@@ -15,7 +15,10 @@ export default function About() {
         <div className="mt-6">
           <div className="card">
             <p className="text-lg text-zinc-700">
-              Our consultants, who are globally certified, have managed projects of all sizes across IT, Telecoms, and Consulting sectors with proven client satisfaction.
+            Our consultants, who are widely and globally certified, are highly experienced and have worked with some of the best organisations globally & locally in the IT and Telecommunications, Consulting, and other industries. They have worked on a range of projects, including small, medium-sized, large, complex, cross-functional, and transformational projects, achieving high customer satisfaction.
+            </p>
+            <p className="text-lg text-zinc-700">
+            We take pride in bringing a disciplined, pragmatic, and responsive approach to delivering value to our clients.
             </p>
           </div>
         </div>

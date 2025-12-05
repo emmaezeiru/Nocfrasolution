@@ -37,22 +37,19 @@ export default function Hero() {
           <div className="card">
             <p className="font-bold text-nocfra-dark">Vision</p>
             <p className="mt-2 text-zinc-700">
-              To be the preferred choice for PM Consulting & Training in Nigeria
-              and Africa.
+            To be the preferred choice in the provision of Project management Consulting, Training, and Project management services in Nigeria and the African continent.
             </p>
           </div>
           <div className="card">
             <p className="font-bold text-nocfra-dark">Mission</p>
             <p className="mt-2 text-zinc-700">
-              Deliver best‑in‑class services and optimized human capacity for
-              outstanding delivery capabilities.
+            To meet our clients’ unique requests with the best quality services and solutions, and to ensure optimized human capacity development that will help to build outstanding delivery capabilities in organizations both in Nigeria and on the African continent.
             </p>
           </div>
           <div className="card">
             <p className="font-bold text-nocfra-dark">Core Values</p>
             <p className="mt-2 text-zinc-700">
-              Conscious, continuous improvement; honesty; integrity;
-              forthrightness; collaboration; quality.
+            We are committed to conscious, continuous improvement, honesty, integrity, and forthrightness in a collaborative effort to continue to deliver quality services to our customers.
             </p>
           </div>
         </div>
@@ -67,7 +64,7 @@ export default function Hero() {
               and recovery.
             </p>
             <a
-              href="/services/consulting"
+              href="/#consulting"
               className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline"
             >
               Find expertise →
@@ -82,7 +79,7 @@ export default function Hero() {
               fundamentals, and software testing with real‑world scenarios.
             </p>
             <a
-              href="/services/training"
+              href="/#training"
               className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline"
             >
               Explore trainings →

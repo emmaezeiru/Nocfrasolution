@@ -87,6 +87,12 @@ export default function Services() {
             ]}
             icon="/icons/proofreading.svg"
           />
+          <ServiceCard
+            title="Coaching & Mentoring"
+            items={[
+              "Project management coaching and mentoring for our trained delegates and anyone ready to grow their capability.",
+            ]}
+          />
         </div>
 
         {/* Detailed subsections kept on the home page */}
@@ -244,6 +250,18 @@ export default function Services() {
             <li>Christian literature</li>
             <li>Ghost‑writing services</li>
           </ul>
+        </section>
+
+        <section id="coaching-mentoring" className="section">
+          <h3 className="font-heading text-3xl font-bold text-nocfra-dark">
+            Coaching & Mentoring Services
+          </h3>
+          <div className="mt-2 h-1 w-16 bg-nocfra-primary" />
+          <p className="mt-6 text-lg text-zinc-700">
+            We offer project management coaching & mentoring services to our
+            trained delegates and others who are ready and interested in these
+            services.
+          </p>
         </section>
       </div>
     </section>

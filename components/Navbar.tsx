@@ -73,6 +73,12 @@ export default function Navbar() {
               >
                 Book Editing & Proof‑reading
               </a>
+              <a
+                className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
+                href="/#coaching-mentoring"
+              >
+                Coaching & Mentoring
+              </a>
             </div>
           </div>
           <a
@@ -147,17 +153,17 @@ export default function Navbar() {
                 </a>
                 <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/#coaching-mentoring"
-                  onClick={() => setOpen(false)}
-                >
-                  Coaching & Mentoring
-                </a>
-                <a
-                  className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
                   href="/#book-editing"
                   onClick={() => setOpen(false)}
                 >
                   Book Editing & Proof‑reading
+                </a>
+                <a
+                  className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
+                  href="/#coaching-mentoring"
+                  onClick={() => setOpen(false)}
+                >
+                  Coaching & Mentoring
                 </a>
               </div>
             </details>
