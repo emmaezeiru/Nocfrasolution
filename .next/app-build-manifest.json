@@ -1,25 +1,71 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/_not-found/page-846bc14f8cdb3714.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/css/837200502f95de84.css",
+      "static/chunks/173-4f078887a7bfcdfc.js",
+      "static/chunks/925-b6efb6e8a56d1682.js",
+      "static/chunks/app/layout-a547801c200c98a9.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/173-4f078887a7bfcdfc.js",
+      "static/chunks/app/page-4fb11e3e1925b667.js"
+    ],
+    "/services/book-editing/page": [
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/services/book-editing/page-a2d16f7d472baabc.js"
+    ],
+    "/services/coaching-mentoring/page": [
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/services/coaching-mentoring/page-891dd5c5275ae9d9.js"
     ],
     "/services/consulting/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/consulting/page.js"
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/services/consulting/page-5c2469a3da72fb77.js"
+    ],
+    "/services/outsourcing/page": [
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/services/outsourcing/page-92e54799d586a4b8.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/services/page-3fef3942f5309178.js"
     ],
     "/services/training/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/training/page.js"
+      "static/chunks/webpack-bac34bed4e86a069.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-134bb9e908208f29.js",
+      "static/chunks/main-app-a214850c52be7fcf.js",
+      "static/chunks/app/services/training/page-18befe14149ac223.js"
     ]
   }
 }
