@@ -1,11 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/contact/route": "app/api/contact/route.js",
-  "/page": "app/page.js",
-  "/services/book-editing/page": "app/services/book-editing/page.js",
-  "/services/coaching-mentoring/page": "app/services/coaching-mentoring/page.js",
-  "/services/consulting/page": "app/services/consulting/page.js",
-  "/services/outsourcing/page": "app/services/outsourcing/page.js",
-  "/services/page": "app/services/page.js",
-  "/services/training/page": "app/services/training/page.js"
+  "/page": "app/page.js"
 }
