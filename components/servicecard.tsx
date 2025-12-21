@@ -1,16 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function ServiceCardpage({
   title,
   items,
   icon,
+  href,
 }: {
   title: string;
   items: string[];
   icon?: any;
+  href?: string;
 }) {
-  return (
-    <div className="card h-full border-l-4 border-nocfra-primary flex flex-col items-center md:items-start">
+  const cardContent = (
+    <div className="card h-full border-l-4 border-nocfra-primary flex flex-col items-center md:items-start cursor-pointer transition-all hover:shadow-lg">
       {icon && (
         <Image
           src={icon}
@@ -32,6 +35,16 @@ function ServiceCardpage({
       </ul>
     </div>
   );
+
+  if (href) {
+    return (
+      <Link href={href} className="block">
+        {cardContent}
+      </Link>
+    );
+  }
+
+  return cardContent;
 }
 
 export default function ServiceCard() {
@@ -57,6 +70,7 @@ export default function ServiceCard() {
               "Review & Recovery of troubled projects",
             ]}
             icon="/icons/consulting.svg"
+            href="/services#consulting"
           />
           <ServiceCardpage
             title="Training Services"
@@ -67,6 +81,7 @@ export default function ServiceCard() {
               "Software Testing Training",
             ]}
             icon="/icons/training.svg"
+            href="/services#training"
           />
           <ServiceCardpage
             title="Resource Outsourcing"
@@ -78,6 +93,7 @@ export default function ServiceCard() {
               "Software Testers",
             ]}
             icon="/icons/outsourcing.svg"
+            href="/services#outsourcing"
           />
           <ServiceCardpage
             title="Book Editing & Proof‑reading"
@@ -86,12 +102,14 @@ export default function ServiceCard() {
               "Ghost‑writing services",
             ]}
             icon="/icons/proofreading.svg"
+            href="/services#book-editing"
           />
           <ServiceCardpage
             title="Coaching & Mentoring"
             items={[
               "Project management coaching and mentoring for our trained delegates and anyone ready to grow their capability.",
             ]}
+            href="/services#coaching-mentoring"
           />
         </div>
 

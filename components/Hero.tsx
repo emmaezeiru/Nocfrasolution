@@ -65,7 +65,7 @@ export default function Hero() {
               and recovery.
             </p>
             <a
-              href="/#consulting"
+              href="/services#consulting"
               className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline"
             >
               Find expertise →
@@ -80,7 +80,7 @@ export default function Hero() {
               fundamentals, and software testing with real‑world scenarios.
             </p>
             <a
-              href="/#training"
+              href="/services#training"
               className="mt-4 inline-block text-sm font-semibold text-nocfra-primary hover:underline"
             >
               Explore trainings →
