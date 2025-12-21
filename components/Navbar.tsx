@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
       <div className="container-responsive flex h-20 items-center justify-between md:h-24">
-        <Link href="/#home" className="flex items-center gap-4">
+        <Link href="/" className="flex items-center gap-4">
           <Image
             src="/nocfra-logo.jpg"
             alt="Nocfra Solutions"
@@ -29,25 +29,25 @@ export default function Navbar() {
         </Link>
 
         <nav className="relative hidden items-center gap-8 md:flex">
-          <a
-            href="/#home"
+          <Link
+            href="/"
             className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary"
           >
             Home
-          </a>
-          <a
-            href="/#about"
+          </Link>
+          <Link
+            href="/about"
             className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary"
           >
             About
-          </a>
+          </Link>
           <div className="group relative">
-            <a
-              href="/#services"
+            <Link
+              href="/services"
               className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary"
             >
               Services ▾
-            </a>
+            </Link>
             <div className="invisible absolute left-0 top-full z-50 mt-2 w-64 rounded-lg border border-black/5 bg-white p-2 opacity-0 shadow-md transition-all duration-200 group-hover:visible group-hover:opacity-100">
               <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
@@ -81,15 +81,15 @@ export default function Navbar() {
               </a>
             </div>
           </div>
-          <a
-            href="/#contact"
+          <Link
+            href="/contact"
             className="text-base font-semibold text-zinc-700 transition-colors hover:text-nocfra-primary"
           >
             Contact
-          </a>
-          <a href="/#contact" className="btn-primary ml-2">
+          </Link>
+          <Link href="/contact" className="btn-primary ml-2">
             Get in Touch
-          </a>
+          </Link>
         </nav>
 
         <button
@@ -104,32 +104,32 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden">
           <div className="container-responsive grid gap-2 pb-6">
-            <a
-              href="/#home"
+            <Link
+              href="/"
               onClick={() => setOpen(false)}
               className="rounded-md px-3 py-3 text-base font-semibold text-zinc-700 hover:bg-zinc-50"
             >
               Home
-            </a>
-            <a
-              href="/#about"
+            </Link>
+            <Link
+              href="/about"
               onClick={() => setOpen(false)}
               className="rounded-md px-3 py-3 text-base font-semibold text-zinc-700 hover:bg-zinc-50"
             >
               About
-            </a>
+            </Link>
             <details className="rounded-md px-3 py-2">
               <summary className="cursor-pointer text-base font-bold text-zinc-700">
                 Services
               </summary>
               <div className="mt-2 grid gap-1">
-                <a
+                <Link
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/#services"
+                  href="/services"
                   onClick={() => setOpen(false)}
                 >
                   All Services
-                </a>
+                </Link>
                 <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
                   href="/#consulting"
@@ -167,20 +167,20 @@ export default function Navbar() {
                 </a>
               </div>
             </details>
-            <a
-              href="/#contact"
+            <Link
+              href="/contact"
               onClick={() => setOpen(false)}
               className="rounded-md px-3 py-3 text-base font-semibold text-zinc-700 hover:bg-zinc-50"
             >
               Contact
-            </a>
-            <a
-              href="/#contact"
+            </Link>
+            <Link
+              href="/contact"
               onClick={() => setOpen(false)}
               className="btn-primary mt-1"
             >
               Get in Touch
-            </a>
+            </Link>
           </div>
         </div>
       )}
