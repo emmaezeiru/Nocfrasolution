@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="home" className="section relative overflow-hidden bg-white">
       <div className="absolute inset-x-0 top-0 h-1 bg-nocfra-primary" />
       <div className="container-responsive">
-        <div className="grid items-start gap-10 w-full md:grid-cols-2 md:bg-[url('/nocfra-banner.jpg')] bg-no-repeat bg-right bg-contain lg:bg-size-[50%_auto]">
+        <div className="grid items-start gap-10 w-full md:grid-cols-2">
           <div>
       <p className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-500 md:text-base">
         Project Management Consulting • Training • Outsourcing
