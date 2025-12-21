@@ -54,7 +54,7 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        {/* <div className="grid gap-6 md:mt-2">
+        <div className="grid gap-6 md:mt-2">
           <div className="card border-l-4 border-nocfra-primary p-6">
             <h3 className="font-heading text-2xl font-bold text-nocfra-dark">
               For Companies
@@ -70,8 +70,8 @@ export default function Hero() {
             >
               Find expertise →
             </a>
-          </div> */}
-          {/* <div className="card border-l-4 border-nocfra-primary/60 p-6">
+          </div>
+          <div className="card border-l-4 border-nocfra-primary/60 p-6">
             <h3 className="font-heading text-2xl font-bold text-nocfra-dark">
               For Professionals
             </h3>
@@ -85,8 +85,8 @@ export default function Hero() {
             >
               Explore trainings →
             </a>
-          </div> */}
-        {/* </div> */}
+          </div>
+        </div>
       </div>
     </section>
   );

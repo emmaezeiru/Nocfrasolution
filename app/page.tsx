@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Services from "@/components/Services";
 import Contact from "@/components/Contact";
+import ServiceCard from "@/components/servicecard";
 
 export default function Page() {
   return (
@@ -9,7 +9,7 @@ export default function Page() {
       <main>
         <Hero />
         <About />
-        <Services />
+        <ServiceCard />
         <Contact />
       </main>
     </>
