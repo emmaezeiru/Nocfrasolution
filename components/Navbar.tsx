@@ -51,31 +51,31 @@ export default function Navbar() {
             <div className="invisible absolute left-0 top-full z-50 mt-2 w-64 rounded-lg border border-black/5 bg-white p-2 opacity-0 shadow-md transition-all duration-200 group-hover:visible group-hover:opacity-100">
               <Link
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services#consulting"
+                href="/services/consulting"
               >
                 Consulting Services
               </Link>
               <Link
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services#training"
+                href="/services/training"
               >
                 Training Services
               </Link>
               <Link
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services#outsourcing"
+                href="/services/outsourcing"
               >
                 Resource Outsourcing
               </Link>
               <Link
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services#book-editing"
+                href="/services/book-editing"
               >
                 Book Editing & Proof‑reading
               </Link>
               <Link
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services#coaching-mentoring"
+                href="/services/coaching-mentoring"
               >
                 Coaching & Mentoring
               </Link>
@@ -132,35 +132,35 @@ export default function Navbar() {
                 </Link>
                 <Link
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services#consulting"
+                  href="/services/consulting"
                   onClick={() => setOpen(false)}
                 >
                   Consulting Services
                 </Link>
                 <Link
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services#training"
+                  href="/services/training"
                   onClick={() => setOpen(false)}
                 >
                   Training Services
                 </Link>
                 <Link
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services#outsourcing"
+                  href="/services/outsourcing"
                   onClick={() => setOpen(false)}
                 >
                   Resource Outsourcing
                 </Link>
                 <Link
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services#book-editing"
+                  href="/services/book-editing"
                   onClick={() => setOpen(false)}
                 >
                   Book Editing & Proof‑reading
                 </Link>
                 <Link
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services#coaching-mentoring"
+                  href="/services/coaching-mentoring"
                   onClick={() => setOpen(false)}
                 >
                   Coaching & Mentoring

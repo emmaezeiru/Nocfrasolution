@@ -70,7 +70,7 @@ export default function ServiceCard() {
               "Review & Recovery of troubled projects",
             ]}
             icon="/icons/consulting.svg"
-            href="/services#consulting"
+            href="/services/consulting"
           />
           <ServiceCardpage
             title="Training Services"
@@ -81,7 +81,7 @@ export default function ServiceCard() {
               "Software Testing Training",
             ]}
             icon="/icons/training.svg"
-            href="/services#training"
+            href="/services/training"
           />
           <ServiceCardpage
             title="Resource Outsourcing"
@@ -93,7 +93,7 @@ export default function ServiceCard() {
               "Software Testers",
             ]}
             icon="/icons/outsourcing.svg"
-            href="/services#outsourcing"
+            href="/services/outsourcing"
           />
           <ServiceCardpage
             title="Book Editing & Proof‑reading"
@@ -102,14 +102,14 @@ export default function ServiceCard() {
               "Ghost‑writing services",
             ]}
             icon="/icons/proofreading.svg"
-            href="/services#book-editing"
+            href="/services/book-editing"
           />
           <ServiceCardpage
             title="Coaching & Mentoring"
             items={[
               "Project management coaching and mentoring for our trained delegates and anyone ready to grow their capability.",
             ]}
-            href="/services#coaching-mentoring"
+            href="/services/coaching-mentoring"
           />
         </div>
 
