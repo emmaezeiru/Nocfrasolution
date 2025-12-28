@@ -5,18 +5,11 @@ export default function Hero() {
     <section id="home" className="section relative overflow-hidden bg-white">
       <div className="absolute inset-x-0 top-0 h-1 bg-nocfra-primary" />
       <div className="container-responsive">
-        <div className="grid items-start gap-10 w-full md:grid-cols-2">
-          <div>
-      <p className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-500 md:text-base">
+        <div className="w-full">
+      <h1 className="text-xl font-semibold uppercase tracking-[0.18em] text-zinc-500 md:text-2xl lg:text-3xl">
         Project Management Consulting • Training • Outsourcing
-      </p>
-      <h1 className="mt-3 font-heading text-4xl font-bold leading-tight text-nocfra-dark md:text-5xl lg:text-6xl">
-        Nocfra Solutions
       </h1>
-      <p className="mt-2 text-sm font-semibold uppercase tracking-[0.12em] text-zinc-600 md:text-base">
-        Right Intervention, <span className="text-nocfra-primary">Boundless Results</span>
-      </p>
-      <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-700">
+      <p className="mt-6 text-lg leading-relaxed text-zinc-700">
               We help organizations in Nigeria and across Africa deliver change
               reliably—through expert project delivery, mature PMO capabilities
               and practical training.
@@ -32,7 +25,6 @@ export default function Hero() {
                 Our Services
               </a>
             </div>
-          </div>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="card">

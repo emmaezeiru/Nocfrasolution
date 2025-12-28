@@ -4,23 +4,24 @@ import { useState } from 'react'
 export default function Contact() {
   const [status, setStatus] = useState<string | null>(null)
 
-  async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
+  function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
-    setStatus('Sending...')
     const formData = new FormData(event.currentTarget)
-    const payload = Object.fromEntries(formData.entries())
-    try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      })
-      if (!res.ok) throw new Error('Failed to send message')
-      setStatus('Message sent. We will reach out soon!')
-      event.currentTarget.reset()
-    } catch (err) {
-      setStatus('Something went wrong. Please try again later.')
-    }
+    const name = formData.get('name') as string
+    const email = formData.get('email') as string
+    const phone = formData.get('phone') as string
+    const message = formData.get('message') as string
+
+    const subject = encodeURIComponent(`Contact Form Submission from ${name}`)
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}\n\nMessage:\n${message}`
+    )
+    
+    const mailtoLink = `mailto:Innocent.Ezeiru@gmail.com?subject=${subject}&body=${body}`
+    
+    window.location.href = mailtoLink
+    setStatus('Opening your email client...')
+    event.currentTarget.reset()
   }
 
   return (
@@ -29,10 +30,7 @@ export default function Contact() {
         <h2 className="section-heading">Contact Us</h2>
         <div className="mt-8 grid gap-10 md:grid-cols-2">
           <div className="card">
-            <p className="text-zinc-700">
-              Address: 5, Olope Street, Divine Estate, Ago Palace Way, Okota.
-            </p>
-            <p className="mt-2 text-zinc-700">Contact Numbers: +2348032001111, +2347078089668</p>
+            <p className="mt-2 text-zinc-700">Contact Numbers: +2348032005474, +2347078089668</p>
             <p className="mt-2 text-zinc-700">Email: Innocent.Ezeiru@gmail.com</p>
             <p className="mt-4 text-sm text-zinc-600">We typically respond within one business day.</p>
           </div>
