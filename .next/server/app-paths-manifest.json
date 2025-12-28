@@ -1,8 +1,10 @@
 {
   "/page": "app/page.js",
   "/services/consulting/page": "app/services/consulting/page.js",
-  "/services/coaching-mentoring/page": "app/services/coaching-mentoring/page.js",
   "/about/page": "app/about/page.js",
+  "/services/book-editing/page": "app/services/book-editing/page.js",
   "/contact/page": "app/contact/page.js",
-  "/services/book-editing/page": "app/services/book-editing/page.js"
+  "/services/page": "app/services/page.js",
+  "/services/training/page": "app/services/training/page.js",
+  "/services/coaching-mentoring/page": "app/services/coaching-mentoring/page.js"
 }
