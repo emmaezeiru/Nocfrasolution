@@ -8,8 +8,6 @@ export default function Page() {
     <>
       <main>
         <Hero />
-        <ServiceCard />
-        <Contact />
       </main>
     </>
   );
