@@ -49,36 +49,36 @@ export default function Navbar() {
               Services ▾
             </Link>
             <div className="invisible absolute left-0 top-full z-50 mt-2 w-64 rounded-lg border border-black/5 bg-white p-2 opacity-0 shadow-md transition-all duration-200 group-hover:visible group-hover:opacity-100">
-              <Link
+              <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services/consulting"
+                href="/#consulting"
               >
                 Consulting Services
-              </Link>
-              <Link
+              </a>
+              <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services/training"
+                href="/#training"
               >
                 Training Services
-              </Link>
-              <Link
+              </a>
+              <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services/outsourcing"
+                href="/#outsourcing"
               >
                 Resource Outsourcing
-              </Link>
-              <Link
+              </a>
+              <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services/book-editing"
+                href="/#book-editing"
               >
                 Book Editing & Proof‑reading
-              </Link>
-              <Link
+              </a>
+              <a
                 className="block rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                href="/services/coaching-mentoring"
+                href="/#coaching-mentoring"
               >
                 Coaching & Mentoring
-              </Link>
+              </a>
             </div>
           </div>
           <Link
@@ -130,41 +130,41 @@ export default function Navbar() {
                 >
                   All Services
                 </Link>
-                <Link
+                <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services/consulting"
+                  href="/#consulting"
                   onClick={() => setOpen(false)}
                 >
                   Consulting Services
-                </Link>
-                <Link
+                </a>
+                <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services/training"
+                  href="/#training"
                   onClick={() => setOpen(false)}
                 >
                   Training Services
-                </Link>
-                <Link
+                </a>
+                <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services/outsourcing"
+                  href="/#outsourcing"
                   onClick={() => setOpen(false)}
                 >
                   Resource Outsourcing
-                </Link>
-                <Link
+                </a>
+                <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services/book-editing"
+                  href="/#book-editing"
                   onClick={() => setOpen(false)}
                 >
                   Book Editing & Proof‑reading
-                </Link>
-                <Link
+                </a>
+                <a
                   className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50"
-                  href="/services/coaching-mentoring"
+                  href="/#coaching-mentoring"
                   onClick={() => setOpen(false)}
                 >
                   Coaching & Mentoring
-                </Link>
+                </a>
               </div>
             </details>
             <Link

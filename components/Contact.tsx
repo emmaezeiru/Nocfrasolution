@@ -17,7 +17,7 @@ export default function Contact() {
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}\n\nMessage:\n${message}`
     )
     
-    const mailtoLink = `mailto:Innocent.Ezeiru@gmail.com?subject=${subject}&body=${body}`
+    const mailtoLink = `mailto:info@nocfrasolutions.com?subject=${subject}&body=${body}`
     
     window.location.href = mailtoLink
     setStatus('Opening your email client...')
@@ -31,7 +31,7 @@ export default function Contact() {
         <div className="mt-8 grid gap-10 md:grid-cols-2">
           <div className="card">
             <p className="mt-2 text-zinc-700">Contact Numbers: +2348032005474, +2347078089668</p>
-            <p className="mt-2 text-zinc-700">Email: Innocent.Ezeiru@gmail.com</p>
+            <p className="mt-2 text-zinc-700">Email: info@nocfrasolutions.com</p>
             <p className="mt-4 text-sm text-zinc-600">We typically respond within one business day.</p>
           </div>
 
