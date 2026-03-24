@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
               <div className="md:col-span-2">
                 <label className="block text-sm font-medium text-zinc-700">Message</label>
-                <textarea name="message" required className="mt-1 w-full rounded-md border border-zinc-300 px-3 py-2 focus:border-nocfra-primary focus:outline-none" rows={4} defaultValue="I would like to know if you offer practical project management training." />
+                <textarea name="message" required className="mt-1 w-full rounded-md border border-zinc-300 px-3 py-2 focus:border-nocfra-primary focus:outline-none" rows={4}/>
               </div>
             </div>
             <button className="btn-primary mt-4" type="submit">Send Message</button>
